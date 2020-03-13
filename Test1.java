@@ -1,21 +1,24 @@
 public class Test1 {
 
+    //1.2 variables
+    static int x;
+    static double y;
+    static float f;
+    static char z;
+    static boolean b;
+    static String str;
+
     public static void main(String[] args){
         //1.1
         System.out.println("Hello! \n");
 
-        //1.2
-        int x = 10;
-        double y = 3.245;
-        char z = 'j';
-        boolean b = true;
-        String str = "Programming Test";
-
-        System.out.println("Integer type: " +x);
-        System.out.println("Double type: " +y);
-        System.out.println("Char type: " +z);
-        System.out.println("Boolean type: " +b);
-        System.out.println("String type: " +str);
+        //1.2 output
+        System.out.println("Integer : " +x);
+        System.out.println("Double : " +y);
+        System.out.println("Float : " +f);
+        System.out.println("Char : " +z);
+        System.out.println("Boolean : " +b);
+        System.out.println("String : " +str);
 
         //1.3
         String str1 = "OOP";
